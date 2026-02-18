@@ -1,9 +1,9 @@
 {
-  "project_name": "Cyberpunk_Infinity_Ring",
+  "project_name": "Mobius_Signature_Ring",
   "design_params": {
-    "nodes": 60,
-    "main_radius": 3.0,
-    "element_size": 0.4,
-    "twist_count": 4
+    "nodes": 140,
+    "main_radius": 5.0,
+    "element_size": 0.6,
+    "twist_count": 5
   }
 }
