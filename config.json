@@ -1,9 +1,9 @@
 {
-  "project_name": "AurumBit_Prototype_V1",
+  "project_name": "Nebula_Bracelet",
   "design_params": {
-    "nodes": 50,
-    "main_radius": 8.5,
+    "nodes": 45,
+    "main_radius": 6.0,
     "element_size": 0.8,
-    "twist_count": 6
+    "twist_count": 2
   }
 }
