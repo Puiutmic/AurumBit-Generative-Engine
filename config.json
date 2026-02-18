@@ -1,9 +1,9 @@
 {
-  "project_name": "Nebula_Bracelet",
+  "project_name": "Cyberpunk_Infinity_Ring",
   "design_params": {
-    "nodes": 45,
-    "main_radius": 6.0,
-    "element_size": 0.8,
-    "twist_count": 2
+    "nodes": 60,
+    "main_radius": 3.0,
+    "element_size": 0.4,
+    "twist_count": 4
   }
 }
