@@ -1,0 +1,9 @@
+{
+  "project_name": "AurumBit_Prototype_V1",
+  "design_params": {
+    "nodes": 50,
+    "main_radius": 8.5,
+    "element_size": 0.8,
+    "twist_count": 6
+  }
+}
