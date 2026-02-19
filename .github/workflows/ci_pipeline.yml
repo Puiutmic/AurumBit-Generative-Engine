@@ -1,4 +1,4 @@
-name: AurumBit Quality Check
+name: AurumBit Quality & AI Check
 
 on: [push]
 
@@ -7,14 +7,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
+
     - name: Install Dependencies
       run: |
         pip install flake8
         pip install fake-bpy-module-latest
+
     - name: Lint with Flake8
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+    - name: Test AI Config Generation
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python ai_generator.py
